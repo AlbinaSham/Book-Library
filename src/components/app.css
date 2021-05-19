@@ -1,0 +1,10 @@
+.grid{
+    padding-top: 8%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:3%;
+}
+.mine{
+    display: flex;
+}

@@ -1,0 +1,76 @@
+
+  .containerCard{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#edeef7;
+    z-index: 1;
+    width: 100%;
+  }
+  .card{
+    position: fixed;
+    background-color:white;
+    top:15%;
+    left:18%;
+    transform: (-50%, -50%);
+    width: 60%;
+    height: auto;
+    margin-bottom: 10px;
+    border: solid;
+    border-radius: 2%;
+    border-width: .5px;
+    border-color: #edeef7;
+    padding-bottom: 15px;
+  }
+  .naneAuthor{
+    
+    display: block;
+    padding-top: 2%;
+    padding-left: 7%;
+  }
+  .naneAuthor h3{
+    color: #87a7b3;
+    font-size: 25px;
+  }
+  h4, h5{
+    color: #536162;
+  }
+  
+  .imgnameX{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+  .imag img{
+    margin: 20px;
+    width: 150px;
+    height: 250px;
+    background-color: grey;
+  }
+  .wishbut{
+    width: 130px;
+    height: 40px;
+    background-color:#87a7b3;
+    border: none;
+    border-radius: 2em;
+    margin-top: 15px;
+    color:#536162 ;
+  }
+  .closingBut{
+    display: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 15%;
+    margin: 8px;
+  }
+  .description{
+    color: #536162;
+
+    padding: 10px;
+    text-overflow: clip;
+    white-space:pre-wrap;
+  }
+  
+  
