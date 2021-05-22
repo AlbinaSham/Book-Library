@@ -46,7 +46,7 @@ const Search = () => {
                 
                    {results.map(result =>{
                      return(
-                        <ResultCard key={result.title} result = {result} />
+                        <ResultCard key={result.id} result = {result} />
                        );
                       }
                     )}

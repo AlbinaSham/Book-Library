@@ -5,6 +5,10 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap:3%;
 }
+
 .mine{
     display: flex;
+}
+.mine:hover{
+    background-color: #c0fefc;
 }

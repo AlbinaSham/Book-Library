@@ -28,7 +28,8 @@ import ShowCard from "./ShowCard";
           <div className="ui tiny image" >
 
               <ShowCard
-                  result = {result}
+                 key = {result.title}
+                 result = {result}
                  showCard = { showCard } 
                  closeCard = {()=> setShowCard(false)}
                  setShowCard = { setShowCard } 
